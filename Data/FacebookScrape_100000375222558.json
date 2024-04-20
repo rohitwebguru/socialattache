@@ -1,0 +1,81 @@
+{
+	"status": "success",
+	"message": null,
+	"data":
+	{
+		"UserID": 500,
+		"SyncID": 6063,
+		"IsAutomationPaused": false,
+		"Created": "2021-01-01 00: 26: 12",
+		"DataName": "FacebookScrape",
+		"AccountID": "560147316",
+		"AccountName": "SaltyFoam",
+		"SyncTypes": ["message boxes","messages","contacts"],
+		"AccessToken": "unused",
+		"LastSynced": "2021-01-01 00: 26: 12",
+		"NextSync": null,
+		"SyncData": null,
+		"HasTask": 0,
+		"messages":
+		[
+/* For this test we are sending a Facebook Messenger message to Genevieve Cloud using her ID.
+   You should see the Facebook scraper tab navigate to Messenger. The
+   result should be an outgoing message in the logged in Messenger account (check from your
+   Messenger). */
+			{
+				"Type": "fbp_msg",
+				"Uid": 1,
+				"Date": "2021-01-01 00:26:12 -8:00",
+				"To": ["Genevieve Cloud <100039723172956@fbperid.socialattache.com>"],
+				"Body": "This is a test message using the user ID.",
+				"Attachments": []
+			}
+/* This is a test for sending a post to the personal feed.
+			{
+				"Type": "fbp_post",
+				"Uid": 15409,
+				"MessageBoxUid": "fbp:560147316@fbperid.socialattache.com",
+				"From": null,
+				"To": [],
+				"Folder": "outbox",
+				"SubFolder": null,
+				"Subject": null,
+				"Body": "Feed post",
+				"Buttons": [],
+				"Attachments": []
+			}
+*/
+		],
+		"commands":
+		[
+/* For this test we will be downloading the profile information for user Genevieve Cloud.
+   You should see the Facebook scraper tab navigate to the profile page, and if you log
+   the contacts parameter inside setServerState() you should see a vCard containing the
+   scraped profile info. */
+			{
+				"SyncCommandID":  1,
+				"SyncID": 1,
+				"ExternalContactID": "genevieve.cloud.900@fbun.socialattache.com",
+				"ExternalCommunityGroupID":  null,
+				"SyncCommand": "FetchContact"
+			},
+
+		],
+		"watched_posts":
+		[
+/* For this test we will be scraping the comments from a Facebook post.
+   You should see the Facebook scraper tab navigate to the post URL, and if you log
+   the messages parameter inside setServerState() you should see an array of items,
+   one for each comment on the post.
+			{
+				"Type": "fbp_post",
+				"MessageID": 1,
+				"Uid":  "10228338757873298@fb_post.socialattache.com",
+				"Url":  "https://www.facebook.com/kat.krasilnikov/posts/10228338757873298",
+				"WatcherExpires": "2021-05-01 00:26:12",
+				"WatcherResourceID":  null
+			}
+*/
+		]
+	}
+}

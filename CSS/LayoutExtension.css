@@ -1,0 +1,86 @@
+.SA_tags {
+    margin-top: 5px;
+}
+
+/* this should be similar to MultiItem_Item */
+.SA_tags div {
+    display: inline-block;
+    border-radius: 15px;
+    border: 1px solid #bbb;
+    background: #f0f0f0;
+    padding: 2px 5px 2px 5px;   /* use less space than in back office */
+    margin: 1px 3px 0px 0px;    /* use less space than in back office */
+    font-size: .75em;           /* try to pick a font size that looks good across Mac and Windows (which seems bigger) */
+    color: #000;
+}
+
+.SA_tags_instagram {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 10px 15px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.SA_tags_instagram > div {
+    float: left;
+}
+
+.SA_contact_summary {
+    margin-top: 5px;
+    max-height: 60px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 5px;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+.SA_contact_summary.SA_popover_summary, .SA_contact_summary.SA_profile_summary {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.SA_contact_summary.SA_popover_summary {
+    padding: 0 17px;
+}
+
+.SA_contact_button_tags {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.SA_contact_button_tags .SA_tags {
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.SA_contact_button_tags .SA_open_contact_dashboard {
+    max-width: 30px;
+}
+
+.SA_contact_button_tags .SA_open_contact_dashboard > div {
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.SA_contact_button_tags .SA_open_contact_dashboard > div > img {
+    width: 100% !important;
+}
+
+.SA_contact_notes {
+    font-size: 13px;
+    line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.SA_popover_summary .SA_contact_notes {
+    font-size: 15px;
+}

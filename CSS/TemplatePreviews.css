@@ -1,0 +1,19 @@
+.SA .preview_permalink     /* this is actually outside the content_preview div */
+{
+   word-break: break-all;
+}
+
+.SA .content_preview
+{
+   text-align: left;      	/* added to remove the above centering, but I'm not sure this is the best fix in all cases for previews? */
+   margin: 0 auto;			/* center the preview table in the parent DIV */
+   border: 2px solid;
+   border-radius: 8px;
+   max-width: 500px;
+}
+
+.SA .content_preview .preview_body
+{
+   max-height: 200px;
+   overflow-y: auto;
+}

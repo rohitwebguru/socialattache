@@ -1,0 +1,123 @@
+.SA .dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
+.SA .dropdown-menu > span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+/*    top: -10px; */
+}
+.SA .dropdown-menu > span,
+.SA .dropdown-menu > div,
+.SA .dropdown-menu li > div
+{
+    cursor: pointer;
+    outline: 0;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.SA .dropdown-menu > div {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.SA .dropdown-menu > span:focus ~ div {
+    display: block;
+}
+
+.SA .dropdown-menu > ul {
+    position: absolute !important;
+    z-index: 2;
+    visibility: hidden;
+    transition: visibility 0.5s;
+    opacity: 0;
+
+    max-height: 240px;
+    overflow: hidden;   /* had to hide it for OSX Safari otherwise it prevented clicking on items under menu - it's show below */
+}
+
+/* I suspect the "visible" class may no longer be used now that we show it on focus?
+.SA .dropdown-menu.visible > ul, */
+.SA .dropdown-menu > span:focus ~ ul
+{
+    visibility: visible;
+    opacity: 1;
+    overflow: auto;   /* had to hide it for OSX Safari so need to show it here */
+}
+
+.SA .dropdown-menu.right > ul {
+    right: 0;
+    padding-left: 0 !important;
+    min-width: 120px;
+}
+
+.SA .dropdown-menu.left > ul {
+    left: 0;
+    padding-left: 0 !important;
+}
+
+.SA .dropdown-menu > ul {
+    top: 25px;
+    border-radius: 2px;
+    backdrop-filter: blur(9px);
+    padding: 0;
+    background: #ffffff;
+    border: 1px solid #d7d7d7;
+    margin: 0;
+}
+
+.SA .dropdown-menu li {
+    height: 2em;
+    line-height: 2em;
+    white-space: nowrap;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    list-style: none;
+    margin-left: 0;
+    transition: background 300ms ease;
+    background: #ffffff8c;
+    padding: 2px 20px 5px 6px;
+}
+
+.SA .dropdown-menu li:not(:first-child) {
+    border-top: none;
+}
+
+.SA .dropdown-menu li:hover {
+    background: #bfbfbf4f;
+}
+
+.SA .dropdown-menu.dropdown-menu-fix > ul{
+    overflow: auto !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.SA .dropdown-menu li div .iconsmall{
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+}
+
+.SA .AddRemoveSelector_Container .dropdown-menu li div /* for AddRemoveSelector as it doesn't put text in a span DRL FIXIT? Put it in a span? */
+{
+    padding: 0px 11px;
+/*    width: 35px; these dimensions mess up the pop up menu for the AddRemoveSelector case!
+    height: 35px; */
+    box-sizing: border-box;
+    color: #25AAE1;
+/*    transition: color 300ms ease;*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+}
+.SA .dropdown-menu > span:focus img{
+    filter: brightness(123%);
+}

@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "origin",
+                    "operation": "set",
+                    "value": "https://m.facebook.com"
+                },
+                {
+                    "header": "referer",
+                    "operation": "set",
+                    "value": "https://m.facebook.com"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||m.facebook.com/",
+            "resourceTypes": [
+                "main_frame",
+                "sub_frame"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "origin",
+                    "operation": "set",
+                    "value": "https://www.facebook.com"
+                }
+            ]
+        },
+        "condition": {}
+    }
+]

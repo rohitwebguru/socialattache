@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{display:inline;clip-path:url(#SVGID_2_);}
+	.st3{fill:#25AAE1;}
+	.st4{clip-path:url(#SVGID_4_);}
+	.st5{clip-path:url(#SVGID_6_);}
+	.st6{display:inline;clip-path:url(#SVGID_8_);}
+	.st7{clip-path:url(#SVGID_10_);}
+	.st8{clip-path:url(#SVGID_12_);}
+	.st9{display:inline;clip-path:url(#SVGID_14_);}
+	.st10{clip-path:url(#SVGID_16_);}
+	.st11{clip-path:url(#SVGID_18_);}
+	.st12{display:inline;clip-path:url(#SVGID_20_);}
+	.st13{display:inline;fill:#25AAE1;}
+	.st14{display:inline;fill:#25AAE1;}
+	.st15{display:inline;clip-path:url(#SVGID_22_);}
+	.st16{display:inline;clip-path:url(#SVGID_24_);}
+	.st17{display:none;fill:#25AAE1;}
+</style>
+<g class="st0">
+	<defs>
+		<rect id="SVGID_1_" x="52.2" y="22.3" width="8.2" height="19.5"/>
+	</defs>
+	<clipPath id="SVGID_2_" class="st1">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g class="st2">
+		<circle class="st3" cx="52.6" cy="32.2" r="7.3"/>
+	</g>
+</g>
+<g class="st0">
+	<defs>
+		<rect id="SVGID_21_" x="17.3" y="-0.1" width="18.9" height="8.8"/>
+	</defs>
+	<clipPath id="SVGID_4_" class="st1">
+		<use xlink:href="#SVGID_21_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="display:inline;clip-path:url(#SVGID_4_);">
+		<circle class="st3" cx="26.8" cy="9.9" r="7.6"/>
+	</g>
+</g>
+<g class="st0">
+	<defs>
+		
+			<rect id="SVGID_23_" x="44.8" y="29.4" transform="matrix(9.620654e-14 -1 1 9.620654e-14 20.395 88.0742)" width="18.9" height="8.8"/>
+	</defs>
+	<clipPath id="SVGID_6_" class="st1">
+		<use xlink:href="#SVGID_23_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="display:inline;clip-path:url(#SVGID_6_);">
+		<circle class="st3" cx="48.7" cy="33.7" r="7.6"/>
+	</g>
+</g>
+<path class="st3" d="M56,32.7c-1-5.2-5.1-6.2-6-6.4V11.4c0-1.5-1.1-2.7-2.5-2.7H34.2c0-0.3-1.2-6.8-8.5-6.2
+	c-5.6,1.1-6.4,5.9-6.4,6.2H4.2c-1.4,0-2.5,1.2-2.5,2.7v15c0,1.1,0.7,2.2,1.7,2.6c0.1,0,3.2,1.2,3.5,4.6c0.1,4.4-3.2,5.8-3.5,6
+	c-1,0.4-1.7,1.4-1.7,2.6v15c0,1.5,1.1,2.7,2.5,2.7h43.2c1.4,0,2.5-1.2,2.5-2.7V41.2C51,40.9,56.6,39.4,56,32.7z M44.8,54.4H6.7V43.7
+	c2.4-1.6,5.4-5,5.2-10.5c-0.4-4.8-3.3-7.3-5.2-8.5V14.1h38.1V54.4z"/>
+</svg>
